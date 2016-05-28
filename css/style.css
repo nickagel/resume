@@ -16,7 +16,12 @@ article{
 
 .button{
     background-color: #e67e22;
+    background-image: none;
     padding: 16px;
+    color: white;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
 }
 
 .button:hover{
@@ -126,7 +131,7 @@ nav a#pull {
 
 /* articles */
 h1, h2{
-    text-align:center;
+    text-align: center;
 }
 
 h1{
@@ -141,8 +146,9 @@ h2{
 }
 
 article.parent{
-    min-height: 600px;
+    min-height: 100vh;
     width: 100%;
+    height: auto;
 }
 
 article.parent#about{
@@ -190,12 +196,6 @@ article.child:after{
     clear: both;
     content: "";
     display: block;
-}
-
-footer{
-    height:20px;
-    width: 100%;
-    background-color: #e67e22;
 }
 
 #iframe:hover{
@@ -293,8 +293,9 @@ input.button{
      padding-bottom:30px
 }
 #about img{
-    width: 300px;
+    max-width: 300px;
     float: right;
+    width:100%;
 }
 #about span{
     display: block;
@@ -314,6 +315,7 @@ input.button{
     }
     #about img{
         float: none;
+        padding: 10px;
     }
     #about p{
         width:100%;
@@ -364,4 +366,58 @@ input.button{
     #skills ul li{
         float: none;
     }
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: #e67e22;
+}
+
+footer ol{
+    text-align: center;
+}
+
+footer ol li{
+    display: inline-block;
+    padding: 15px;
+}
+
+footer a{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+footer #git{
+   background-image: url("./../images/git.png");
+}
+
+footer #git:hover{
+   background-image: url("./../images/gitHover.png");
+   -webkit-transition: .5s;
+   transition: .5s;
+   cursor:pointer;
+}
+
+footer #in{
+   background-image: url("./../images/in.png"); 
+}
+
+footer #in:hover{
+   background-image: url("./../images/inHover.png"); 
+   -webkit-transition: .5s;
+   transition: .5s;
+   cursor:pointer;
+}
+
+footer #insta{
+   background-image: url("./../images/insta.png"); 
+}
+
+footer #insta:hover{
+   background-image: url("./../images/instaHover.png"); 
+   -webkit-transition: .5s;
+   transition: .5s;
+   cursor:pointer;
 }
