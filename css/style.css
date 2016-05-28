@@ -132,7 +132,7 @@ h1, h2{
 h1{
     font-size: 30pt;
     text-transform: uppercase;
-    padding-top:20px;
+    padding:20px;
 }
 h2{
     font-size: 14pt;
@@ -160,6 +160,12 @@ article.parent#career{
 
 article.parent#contact{
     background-color:#34495e;
+}
+
+
+/* CONTACT */
+#contact {
+    color: #ffb02f;
 }
 
 article.parent#contact #location{
@@ -196,29 +202,42 @@ footer{
 	cursor:pointer;
 }
 
+/* contact form */
 #contact form{
     width: 544px;
     margin: 0 auto;
 }
-#contact input[type="text"], #contact input[type="email"], #contact textarea{
-   border: none; 
-   background-color:#4A6075;
-   padding:12px;
-   color: white;
+
+#contact form legend{
+    font-size: 15pt;
+    padding: 28px 0 0 0;
+    text-transform: uppercase;
 }
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea{
+    border: none;
+    background-color: #4A6075;
+    padding: 12px;
+    color: white;
+    margin: 15px 0 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#contact input[type="text"], #contact input[type="email"]{
+    width: 260px;
+}
+
 #contact input{
-    width: 228px;
+    width: 200px;
     border: none; 
 }
+
 #contact textarea{
-    width: 95.5%;
+    width: 100%;
     height:100px;
     resize: none;
-}
-#contact fieldset{
-    border: none;
-    padding: 10px;
-    width: 523px;
 }
 
 input[type="email"]{
@@ -229,10 +248,9 @@ input.button{
     text-transform: uppercase; 
 }
 
-@media screen and (max-width: 550px){
-    #contact form, #contact fieldset{
-        width: 94%;
-        margin: 0;
+@media screen and (max-width: 610px){
+    #contact form{
+        width:100%;
         padding: 0;
     }
     #contact input[type="text"], #contact input[type="email"], #contact textarea{
@@ -243,16 +261,10 @@ input.button{
         float:none;
         margin-top:20px;
     }
-    #contact fieldset{
-        width: 90%;
-        padding: 10px;
-        margin: 0 auto;
-    }
-    
 }
 
 @media screen and (max-width: 470px){
-     #contact form, #contact fieldset{
+     #contact form{
         width: 92%;
     }
 }
