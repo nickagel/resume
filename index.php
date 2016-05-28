@@ -4,6 +4,7 @@
     include "./content/about.php"; 
     include "./content/skills.php"; 
     include "./content/career.php";
+    include "./content/portfolio.php";
     include "./content/contact.php";
     include "./bin/footer.php";   
 ?>

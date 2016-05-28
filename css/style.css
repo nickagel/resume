@@ -110,7 +110,7 @@ nav a#pull {
     }
     nav a#pull:after {
         content:"";
-        background: url('nav-icon.png') no-repeat;
+        background: url('./../images/nav-icon.png') no-repeat;
         width: 30px;
         height: 30px;
         display: inline-block;
@@ -164,10 +164,13 @@ article.parent#career{
     background-color: #bdc3c7;
 }
 
+article.parent#portfolio{
+    background-color: #6B7F8C;
+}
+
 article.parent#contact{
     background-color:#34495e;
 }
-
 
 /* CONTACT */
 #contact {
@@ -184,6 +187,8 @@ article.parent#contact #location{
 #iframe{
     width: 100%;
     height: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 article.child{
@@ -371,7 +376,8 @@ input.button{
 /* FOOTER */
 footer{
     width: 100%;
-    background-color: #e67e22;
+    background-color: #ffb02f;
+    border-top: solid 4px #e67e22;
 }
 
 footer ol{
