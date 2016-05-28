@@ -10,6 +10,25 @@ body {
     background-color: #0085A1;
 }
 
+article{
+    display:block;
+}
+
+.button{
+    background-color: #e67e22;
+    padding: 16px;
+}
+
+.button:hover{
+    background-color:#ffb02f;
+    transition: 1s;
+    cursor:pointer;
+}
+
+:focus{
+    outline: none; 
+}
+
 /* navigation */
 nav {
     height: 40px;
@@ -177,6 +196,67 @@ footer{
 	cursor:pointer;
 }
 
+#contact form{
+    width: 544px;
+    margin: 0 auto;
+}
+#contact input[type="text"], #contact input[type="email"], #contact textarea{
+   border: none; 
+   background-color:#4A6075;
+   padding:12px;
+   color: white;
+}
+#contact input{
+    width: 228px;
+    border: none; 
+}
+#contact textarea{
+    width: 95.5%;
+    height:100px;
+    resize: none;
+}
+#contact fieldset{
+    border: none;
+    padding: 10px;
+    width: 523px;
+}
+
+input[type="email"]{
+    float:right;
+}
+
+input.button{
+    text-transform: uppercase; 
+}
+
+@media screen and (max-width: 550px){
+    #contact form, #contact fieldset{
+        width: 94%;
+        margin: 0;
+        padding: 0;
+    }
+    #contact input[type="text"], #contact input[type="email"], #contact textarea{
+        width:100%;
+        padding:16px;
+    }
+    input[type="email"]{
+        float:none;
+        margin-top:20px;
+    }
+    #contact fieldset{
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 470px){
+     #contact form, #contact fieldset{
+        width: 92%;
+    }
+}
+
 /* about */
 #about h1{
     padding-bottom: 30px;
@@ -211,18 +291,9 @@ footer{
     margin: 0 auto;
 }
 
-#about .button{
-    background-color: #e67e22;
-    padding: 16px;
-}
 #about a:visited, #about a:hover, #about a:link{
     color:white;
     text-decoration:none;
-}
-
-#about a:hover{
-    background-color:#ffb02f;
-    transition: 1s;
 }
 
 @media screen and (max-width: 900px) {
