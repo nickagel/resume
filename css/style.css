@@ -145,6 +145,19 @@ h2{
     padding-bottom:20px;
 }
 
+h3{
+    font-size: 16pt;
+}
+
+h4{
+    font-size: 14pt;
+}
+
+h5{
+    font-size: 9pt;
+    text-align: right;
+}
+
 article.parent{
     min-height: 100vh;
     width: 100%;
@@ -238,6 +251,7 @@ article.child:after{
 #contact input{
     width: 200px;
     border: none; 
+    margin-top: 10px;
 }
 
 #contact textarea{
@@ -372,6 +386,11 @@ input.button{
     #skills ul li{
         float: none;
     }
+}
+
+/* career */
+#career h1{
+    color: #0085A1;
 }
 
 /* FOOTER */

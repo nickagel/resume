@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/defaultPercentage.css">
+        <link rel="stylesheet" href="./css/timeline.css">
         <link href='//fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="./scripts/timeline.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.6.1/less.min.js"></script>
         <script src="./scripts/resume.js"></script>
          <style type="text/css">
