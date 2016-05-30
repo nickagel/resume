@@ -111,7 +111,7 @@ nav a#pull {
     }
     nav a#pull:after {
         content:"";
-        background: url('./../images/nav-icon.png') no-repeat;
+        background: url('./../images/nav/nav-icon.png') no-repeat;
         width: 30px;
         height: 30px;
         display: inline-block;
@@ -405,6 +405,11 @@ input.button{
     color: #0085A1;
 }
 
+/* portfolo */
+#portfolio h1{
+    color: white;
+}
+
 /* FOOTER */
 footer{
     width: 100%;
@@ -428,12 +433,12 @@ footer a{
 }
 
 footer #git{
-   background-image: url("./../images/git.png");
+   background-image: url("./../images/footer/git.png");
    background-repeat: no-repeat;
 }
 
 footer #git:hover{
-   background-image: url("./../images/gitHover.png");
+   background-image: url("./../images/footer/gitHover.png");
    -webkit-transition: 1s;
    transition: 1s;
    cursor:pointer;
@@ -441,12 +446,12 @@ footer #git:hover{
 }
 
 footer #in{
-   background-image: url("./../images/in.png"); 
+   background-image: url("./../images/footer/in.png"); 
    background-repeat: no-repeat;
 }
 
 footer #in:hover{
-   background-image: url("./../images/inHover.png"); 
+   background-image: url("./../images/footer/inHover.png"); 
    background-repeat: no-repeat;
    -webkit-transition: 1s;
    transition: 1s;
@@ -454,12 +459,12 @@ footer #in:hover{
 }
 
 footer #insta{
-   background-image: url("./../images/insta.png"); 
+   background-image: url("./../images/footer/insta.png"); 
    background-repeat: no-repeat;
 }
 
 footer #insta:hover{
-   background-image: url("./../images/instaHover.png"); 
+   background-image: url("./../images/footer/instaHover.png"); 
    background-repeat: no-repeat;
    -webkit-transition: 1s;
    transition: 1s;

@@ -1,7 +1,7 @@
 <h1>About Me</h1>
 
 <span>
-    <img src="./images/placeholder.png">
+    <img src="./images/about/placeholder.png">
     <h3>Nick Agel<h3>
     <h4><span class="blockWord">Software Engineer</span> & <span class="blockWord">Web Developer</span></h4>
     <p>
