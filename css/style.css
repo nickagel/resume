@@ -410,6 +410,78 @@ input.button{
     color: white;
 }
 
+#portfolio ol{
+    max-width: 1016px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+#portfolio li{
+    display:inline-block;
+    padding: 2px;
+}
+
+#portfolio a{
+    height: 250px;
+    width: 250px;
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+#portfolio li:hover img{
+    opacity: .4;
+}
+
+#portfolio img{
+  -o-transition:color .2s ease-out, opacity 1s ease-in;
+  -ms-transition:color .2s ease-out, opacity 1s ease-in;
+  -moz-transition:color .2s ease-out, opacity 1s ease-in;
+  -webkit-transition:color .2s ease-out, opacity 1s ease-in;
+  transition:color .2s ease-out, opacity 1s ease-in;
+}
+
+#portfolio h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  display: none;
+  -o-transition:color .2s ease-out, display 1s ease-in;
+  -ms-transition:color .2s ease-out, display 1s ease-in;
+  -moz-transition:color .2s ease-out, display 1s ease-in;
+  -webkit-transition:color .2s ease-out, display 1s ease-in;
+  transition:color .2s ease-out, display 1s ease-in;
+}
+
+#portfolio li:hover h6{
+  display: block;
+}
+
+@media screen and (max-width:1020px){
+    #portfolio ol{
+    max-width: 762px;
+    }
+}
+
+@media screen and (max-width: 764px){
+    #portfolio ol{
+        max-width: 508px;
+    }
+}
+
+@media screen and (max-width: 512px){
+    #portfolio ol{
+        max-width: 254px;
+    }
+}
+
 /* FOOTER */
 footer{
     width: 100%;
