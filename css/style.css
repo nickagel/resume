@@ -434,11 +434,11 @@ input.button{
 }
 
 #portfolio img{
-  -o-transition:color .2s ease-out, opacity 1s ease-in;
-  -ms-transition:color .2s ease-out, opacity 1s ease-in;
-  -moz-transition:color .2s ease-out, opacity 1s ease-in;
-  -webkit-transition:color .2s ease-out, opacity 1s ease-in;
-  transition:color .2s ease-out, opacity 1s ease-in;
+  -o-transition:color .2s ease-out, opacity .5s ease-in;
+  -ms-transition:color .2s ease-out, opacity .5s ease-in;
+  -moz-transition:color .2s ease-out, opacity .5s ease-in;
+  -webkit-transition:color .2s ease-out, opacity .5s ease-in;
+  transition:color .2s ease-out, opacity .5s ease-in;
 }
 
 #portfolio h6 {
@@ -452,16 +452,16 @@ input.button{
   left: 50%;
   font-size: 2rem;
   transform: translate(-50%, -50%);
-  display: none;
-  -o-transition:color .2s ease-out, display 1s ease-in;
-  -ms-transition:color .2s ease-out, display 1s ease-in;
-  -moz-transition:color .2s ease-out, display 1s ease-in;
-  -webkit-transition:color .2s ease-out, display 1s ease-in;
-  transition:color .2s ease-out, display 1s ease-in;
+  opacity: 0;
+  -o-transition:color .2s ease-out, opacity .5s ease-in;
+  -ms-transition:color .2s ease-out, opacity .5s ease-in;
+  -moz-transition:color .2s ease-out, opacity .5s ease-in;
+  -webkit-transition:color .2s ease-out, opacity .5s ease-in;
+  transition:color .2s ease-out, opacity .5s ease-in;
 }
 
 #portfolio li:hover h6{
-  display: block;
+  opacity: 1;
 }
 
 @media screen and (max-width:1020px){
@@ -502,6 +502,15 @@ footer a{
     width: 50px;
     height: 50px;
     display: block;
+}
+
+footer img{
+  opacity:1;
+  -o-transition:color .2s ease-out, opacity .5s ease-in;
+  -ms-transition:color .2s ease-out, opacity .5s ease-in;
+  -moz-transition:color .2s ease-out, opacity .5s ease-in;
+  -webkit-transition:color .2s ease-out, opacity .5s ease-in;
+  transition:color .2s ease-out, opacity .5s ease-in;
 }
 
 footer #git{
