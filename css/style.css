@@ -367,31 +367,39 @@ input.button{
     font-size: 20px;
     max-width: 200px;
     margin: 0 auto;
-    margin-top: -30px;
+    padding-bottom:20px;
 }
 
 #skills ul{
     list-style-type: none;
     margin: 0 auto;
-    width: 880px;
+    width: 970px;
 }
 
 #skills ul li{
     float: left;
+    padding: 20px;
+    width: 190px;
 }
 
-@media screen and (max-width: 944px) {
+@media screen and (max-width: 1000px) {
     #skills ul{
-        width: 660px;
+        width: 707px;
+    }
+    #skills li:nth-child(3n + 1) {  /* or 4n+1 */
+        clear: both;   
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 765px) {
     #skills ul{
-        width: 440px;
+        width: 477px;
+    }
+    #skills li:nth-child(3n + 1) {  /* or 4n+1 */
+        clear: none;   
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
     #skills ul{
         width: 220px;
     }
