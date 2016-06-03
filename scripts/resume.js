@@ -26,9 +26,21 @@ $(function() {
             menu.removeAttr('style');
         }
     });
-    $('#contact').click(function () {
-        $('#location').css("pointer-events", "auto");
+
+    $('#map').addClass('scrolloff');      
+    
+    $('#overlay').on("mouseup",function(){        
+        $('#map').addClass('scrolloff'); 
     });
+    
+    $('#overlay').on("mousedown",function(){        
+        $('#map').removeClass('scrolloff');
+    });
+
+    $("#map").mouseleave(function () {            
+        $('#map').addClass('scrolloff');            
+    });
+        
     $('a[href^="#"]').on('click', function(event) {
 
         var target = $( $(this).attr('href') );

@@ -193,14 +193,19 @@ article.parent#contact{
     color: #ffb02f;
 }
 
-article.parent#contact #location{
-    width: 100%;
-    height: 300px;
-    pointer-events: none;
-    border: none;
+#contact .scrolloff {
+        pointer-events: none;
 }
 
-#iframe{
+#contact .map{
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+    cursor:pointer;
+}
+
+#contact iframe{
     width: 100%;
     height: 300px;
     max-width: 1000px;
@@ -218,10 +223,6 @@ article.child:after{
     clear: both;
     content: "";
     display: block;
-}
-
-#iframe:hover{
-	cursor:pointer;
 }
 
 /* contact form */
