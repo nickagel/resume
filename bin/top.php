@@ -6,11 +6,12 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/timeline.css">
         <link rel="stylesheet" href="./css/svg.css">
-        <script type="text/javascript" src="./scripts/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="./scripts/waypoints.min.js"></script>
-        <script type="text/javascript" src="./scripts/inview.js"></script>
-        <script type="text/javascript" src="./scripts/timeline.js"></script>
-        <script type="text/javascript" src="./scripts/resume.js"></script>
+        <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="./js/waypoints.min.js"></script>
+        <script type="text/javascript" src="./js/inview.js"></script>
+        <script type="text/javascript" src="./js/timeline.js"></script>
+        <script type="text/javascript" src="./js/resume.js"></script>
+        <script type="text/javascript" src="./js/angular-1.5.6.min.js"></script>
         <script type="text/javascript">
             (function() {
                 var link_element = document.createElement("link"),
@@ -25,4 +26,4 @@
             })();
         </script>
     </head>
-    <body>
+    <body ng-app="dataApp" ng-controller="dataCtrl">

@@ -1,0 +1,38 @@
+{
+    "about":[
+      {"name": "Nick Agel", "jobTitle1":"Software Engineer", "jobTitle2":"Web Developer","image":"placeholder.png", "link":"#", "paragraph1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eget nibh non faucibus. Mauris mollis ex vitae purus auctor, ac efficitur arcu ornare. Vestibulum sit amet odio erat. Etiam in magna porta nunc dignissim bibendum. Duis tempus sapien fringilla ipsum euismod, et varius est interdum. Nullam aliquam justo sed nisi aliquet, id commodo nisi malesuada. Morbi sed lacinia sapien. Praesent placerat magna quis lacus euismod, nec luctus risus pharetra.", "paragraph2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eget nibh non faucibus. Mauris mollis ex vitae purus auctor, ac efficitur arcu ornare. Vestibulum sit amet odio erat. Etiam in magna porta nunc dignissim bibendum. Duis tempus sapien fringilla ipsum euismod, et varius est interdum. Nullam aliquam justo sed nisi aliquet, id commodo nisi malesuada. Morbi sed lacinia sapien. Praesent placerat magna quis lacus euismod, nec luctus risus pharetra."}  
+    ],
+    "portfolio":[
+        {"image":"uvmTheatre.png", "title":"UVM Theatre", "link":"//github.com/nickagel/UVM.Theatre", "backgroundcolor":"#34495e"},
+        {"image":"birthdayCalculator.png", "title":"Birthday Calculator", "link":"//github.com/nickagel/Birthday-Calculator", "backgroundcolor":"#ffb02f"},
+        {"image":"myWebGrocer.png", "title":"MyWebGrocer CONFIDENTIAL", "link":"javascript:void(0);", "backgroundcolor":"#006D81"},
+        {"image":"resume.png", "title":"Portfolio Site", "link":"//github.com/nickagel/Resume", "backgroundcolor":"#e67e22"},
+        {"image":"sorryStats.png", "title":"Game of Sorry Stats", "link":"//github.com/nickagel/Stats-Sorry", "backgroundcolor":"#0085A1"},
+        {"image":"speechTherapyGames.png", "title":"Speech Therapy Games", "link":"//github.com/nickagel/Speech_Therapy_Games", "backgroundcolor":"#bdc3c7"},
+        {"image":"uvmCEMS.png", "title":"UVM CEMS", "link":"//www.uvm.edu/~cems/", "backgroundcolor":"#ecf0f1"},
+        {"image":"worksAndDaysFarm.png", "title":"Works And Days Farm", "link":"http://worksanddaysfarm.com/", "backgroundcolor":"#34495e"}
+    ],
+    "career":[
+        {"link":"//www.uvm.edu/", "company": "The University of Vermont", "title": "Undergraduate Degree", "description":"Pursuing a Bachelor of Science in Computer Science & Information Systems", "date":"2013 - Present"},
+        {"link":"//www.uvm.edu/", "company": "The University of Vermont", "title": "Web Development Teaching Assistant", "description":"Taught, assessed & assissted with HTML, CSS, JavaScript, PHP, & MySQL", "date":"2014 - 2015"},
+        {"link":"//www.uri.edu/", "company": "The University of Rhode Island", "title": "Web Developer Intern", "description":"Updated and modernized web content using WordPress, HTML, CSS & JavaScript", "date":"Summer 2014"},
+        {"link":"//www.uvm.edu/~cems", "company": "The University of Vermont", "title": "Web Developer", "description":"Developed, modernized and updated college content using PHP, HTML, CSS, JavaScript, Unix, and Google Analytics", "date":"2014 - 2015"},
+        {"link":"//mywebgrocer.com/", "company": "MyWebGrocer", "title": "Software Engineer Intern", "description":"Engineer features using Node.js, .Net, CSS, HTML, JavaScript, Unix, Python, MongoDb, SQL & MySQL", "date":"2015 - 2016"},
+        {"link":"//www.globalfoundries.com/", "company": "Global Foundries", "title": "Software Engineer Intern", "description":"Engineer features using Node.js, AngularJS, CSS, HTML, JavaScript, & MySQL", "date":"Summer 2016"}
+    ],
+    "skills":[
+        {"type":"html", "percentage":"75", "title":"HTML5 / CSS3", "image":"html-css.png"},
+        {"type":"mongo-sql", "percentage":"75", "title":"MySQL / MonogDb", "image":"sql-mongo.png"},
+        {"type":"net", "percentage":"65", "title":"ASP.Net / C#", "image":"net.png"},
+        {"type":"node", "percentage":"75", "title":"Express / Node.js", "image":"node.png"},
+        {"type":"php", "percentage":"75", "title":"PHP", "image":"php.png"},
+        {"type":"python", "percentage":"75", "title":"Python", "image":"python.png"},
+        {"type":"java", "percentage":"50", "title":"Java", "image":"java.png"},
+        {"type":"bugs", "percentage":"75", "title":"Unit / Integration Testing", "image":"bugs.png"}
+    ],
+    "footer":[
+        {"id":"git", "link":"//github.com/nickagel"},
+        {"id":"insta", "link":"//www.instagram.com/nickagel"},
+        {"id":"in", "link":"//www.linkedin.com/in/nickagel"}
+    ]
+}

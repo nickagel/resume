@@ -1,14 +1,14 @@
 <h1>About Me</h1>
 
-<span>
-    <img src="./images/about/placeholder.png">
-    <h3>Nick Agel<h3>
-    <h4><span class="blockWord">Software Engineer</span> & <span class="blockWord">Web Developer</span></h4>
+<span ng-repeat="a in content.about">
+    <img ng-src="./images/about/{{a.image}}">
+    <h3>{{a.name}}<h3>
+    <h4><span class="blockWord">{{a.jobTitle1}}</span> & <span class="blockWord">{{a.jobTitle2}}</span></h4>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eget nibh non faucibus. Mauris mollis ex vitae purus auctor, ac efficitur arcu ornare. Vestibulum sit amet odio erat. Etiam in magna porta nunc dignissim bibendum. Duis tempus sapien fringilla ipsum euismod, et varius est interdum. Nullam aliquam justo sed nisi aliquet, id commodo nisi malesuada. Morbi sed lacinia sapien. Praesent placerat magna quis lacus euismod, nec luctus risus pharetra.
+        {{a.paragraph1}}
     </p>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eget nibh non faucibus. Mauris mollis ex vitae purus auctor, ac efficitur arcu ornare. Vestibulum sit amet odio erat. Etiam in magna porta nunc dignissim bibendum. Duis tempus sapien fringilla ipsum euismod, et varius est interdum. Nullam aliquam justo sed nisi aliquet, id commodo nisi malesuada. Morbi sed lacinia sapien. Praesent placerat magna quis lacus euismod, nec luctus risus pharetra.
+        {{a.paragraph2}}
     </p>
-    <a class="button" href="#">DOWNLOADABLE RESUME</a>
+    <a class="button" href="{{a.link}}">DOWNLOADABLE RESUME</a>
 </span>
