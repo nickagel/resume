@@ -42,8 +42,9 @@ nav {
     background: #e67e22;
     font-size: 11pt;
     text-transform: uppercase;
-    position: relative;
+    position: fixed;
     border-bottom: 2px solid #ffb02f;
+    z-index: 1000;
 }
 nav ul {
     padding: 0;
@@ -140,6 +141,7 @@ h1{
     font-size: 30pt;
     text-transform: uppercase;
     padding:20px;
+    padding-top:40px;
 }
 h2{
     font-size: 14pt;
@@ -418,6 +420,7 @@ input.button{
 /* portfolo */
 #portfolio h1{
     color: white;
+    padding-top: 65px; 
 }
 
 #portfolio ol{
