@@ -43,8 +43,8 @@ nav {
     font-size: 11pt;
     text-transform: uppercase;
     position: fixed;
-    border-bottom: 2px solid #ffb02f;
     z-index: 1000;
+    border-bottom: 2px solid #ffb02f;
 }
 nav ul {
     padding: 0;
@@ -141,7 +141,6 @@ h1{
     font-size: 30pt;
     text-transform: uppercase;
     padding:20px;
-    padding-top:40px;
 }
 h2{
     font-size: 14pt;
@@ -164,7 +163,7 @@ h5{
 }
 
 article.parent{
-    min-height: 100vh;
+    min-height: 95vh;
     width: 100%;
     height: auto;
 }
@@ -172,6 +171,7 @@ article.parent{
 article.parent#about{
     background-color:#0085A1;
     color: #EEEEEE;
+    min-height: 100vh;
 }
 
 article.parent#skills{
@@ -188,6 +188,12 @@ article.parent#portfolio{
 
 article.parent#contact{
     background-color:#34495e;
+}
+
+article.parent#portfolio, article.parent#skills, article.parent#about{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 /* CONTACT */
@@ -363,8 +369,13 @@ input.button{
 }
 
 /* Skills */
+#skills .child{
+    padding: 15px 30px 0 30px;
+}
+
 #skills h1{
     color: #e67e22;
+    padding: 10px 0 0 0;
 }
 #skills h5{
     text-align: center;
@@ -420,7 +431,6 @@ input.button{
 /* portfolo */
 #portfolio h1{
     color: white;
-    padding-top: 65px; 
 }
 
 #portfolio ol{
