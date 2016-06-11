@@ -389,6 +389,7 @@ input.button{
     list-style-type: none;
     margin: 0 auto;
     width: 970px;
+    height: 50vh;
 }
 
 #skills ul li{

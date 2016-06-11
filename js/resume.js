@@ -5,9 +5,9 @@ var in_view = new Waypoint.Inview({
         enter: function() {
             $elem.removeClass('empty');
         },
-        // exit: function() { // optionally
-        //     $elem.addClass('empty');
-        // }
+        exited: function() {
+            $elem.addClass('empty');
+        }
     });
 })
 $(function() {

@@ -79,15 +79,15 @@
   stroke-dasharray: 534;
   transition: stroke-dashoffset 1s;
   -webkit-animation-play-state: running;
+  animation-play-state: running;
   /* firefox bug fix - won't rotate at 90deg angles */
   -moz-transform: rotate(-90deg) translateX(-190px);
+  transform: rotate(-90deg) translateX(-190px);
 }
 
 .empty .outer{
   stroke-dashoffset: 534 !important;
-  -webkit-animation-play-state: paused !important;
 }
-
 
 /* END Circle colors and graphic positions */
 
@@ -124,7 +124,6 @@
   -webkit-animation: show25 2s;
   animation: show25 2s;
 }
-
 
 /* END set initial animation values */
 
