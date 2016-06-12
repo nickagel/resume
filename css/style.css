@@ -171,6 +171,17 @@ article.parent{
     display: flex;
 }
 
+.fadeIn{
+    opacity: 1;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.fadeOut{
+    opacity: 0 !important;
+}
+
 article.parent#about{
     background-color:#0085A1;
     color: #EEEEEE;

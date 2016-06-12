@@ -2,7 +2,7 @@
     include "./bin/top.php"; 
     include "./bin/nav.php"; 
 ?>
-<article id="about" class="parent">
+<article id="about" class="parent fadeIn fadeOut">
     <article class="child">
         <?php include "./content/about.php"; ?>
     </article>

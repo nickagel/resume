@@ -1,12 +1,19 @@
 $(window).load(function(){
     var $skills = $('.skills');
+    var $skillsParent = $('#skills');
     var skills = new Waypoint.Inview({
         element: $skills[0],
         enter: function() {
             $skills.removeClass('empty');
+            $skillsParent.find("h1").removeClass('fadeOut');
+            $skillsParent.find("img").removeClass('fadeOut');
+            $skillsParent.find("h5").removeClass('fadeOut');
         },
         exited: function() {
             $skills.addClass('empty');
+            $skillsParent.find("h1").addClass('fadeOut');
+            $skillsParent.find("img").addClass('fadeOut');
+            $skillsParent.find("h5").addClass('fadeOut');
         }
     });
     var $about = $('#about');
