@@ -13,7 +13,7 @@
     </article>
 </article>
 <article id="career" class="parent">
-    <article class="child">
+    <article class="child fadeIn fadeOut">
 <?php include "./content/career.php"; ?>
     </article>
 </article>

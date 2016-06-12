@@ -16,6 +16,7 @@ $(window).load(function(){
             $skillsParent.find("h5").addClass('fadeOut');
         }
     });
+
     var $about = $('#about');
     var about = new Waypoint.Inview({
         element: $about[0],
@@ -27,6 +28,20 @@ $(window).load(function(){
         }
     });
 
+    var $career = $("#career .child");
+    var $timeline = $career.find('.timeline-block');
+    var career = new Waypoint.Inview({
+        element: $career[0],
+        enter: function() {
+            $career.removeClass('fadeOut');
+        },
+        exited: function() {
+            $career.addClass('fadeOut');
+            $timeline.each(function() {
+                $(this).addClass('fadeOut');
+            });
+        }
+    });
 })
 
 $(function() {

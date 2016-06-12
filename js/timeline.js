@@ -94,12 +94,12 @@
             // Fade the blocks in as they come into viewport
             if (settings.animate) {
                 // Hide them initially
-                $('.timeline-block').fadeTo(0, 0);
+                $('.timeline-block').addClass('fadeIn fadeOut');
 
                 // Initial check if in viewport
                 $('.timeline-block').each(function() {
                     if (checkViewport($(this))) {
-                        $(this).fadeTo(300,1);
+                        $(this).removeClass('fadeOut');
                     }
                 });
 
@@ -107,7 +107,7 @@
                 $(window).scroll(function() {
                     $('.timeline-block').each(function() {
                         if (checkViewport($(this))) {
-                            $(this).fadeTo(300,1);
+                            $(this).removeClass('fadeOut');
                         }
                     });
                 });
