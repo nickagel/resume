@@ -76,7 +76,14 @@ nav a:hover, nav a:active {
     background-color: #ffb02f;
     -webkit-transition: .5s;
     transition: .5s;
+    cursor: pointer;
 }
+
+nav li:first-child a:hover{
+    background-color:#e67e22; 
+    cursor: default;
+}
+
 nav a#pull {
     display: none;
 }
@@ -507,7 +514,11 @@ input.button{
 
 @media screen and (max-width:1020px){
     #portfolio ol{
-    max-width: 762px;
+        max-width: 762px;
+    }
+    #portfolio h1{
+        padding-bottom:20px;
+        padding-top: 40px;
     }
 }
 
