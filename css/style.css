@@ -166,6 +166,9 @@ article.parent{
     min-height: 95vh;
     width: 100%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 article.parent#about{
@@ -190,10 +193,17 @@ article.parent#contact{
     background-color:#34495e;
 }
 
-article.parent#portfolio, article.parent#skills, article.parent#about{
-    justify-content: center;
-    align-items: center;
-    display: flex;
+article.child{
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+article.child:after{
+    clear: both;
+    content: "";
+    display: block;
 }
 
 /* CONTACT */
@@ -219,18 +229,6 @@ article.parent#portfolio, article.parent#skills, article.parent#about{
     max-width: 1000px;
     margin: 0 auto;
     border: dashed 4px rgba(10, 10, 10, .5);
-}
-
-article.child{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
-}
-
-article.child:after{
-    clear: both;
-    content: "";
-    display: block;
 }
 
 /* contact form */
@@ -389,7 +387,7 @@ input.button{
     list-style-type: none;
     margin: 0 auto;
     width: 970px;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 #skills ul li{
@@ -401,6 +399,7 @@ input.button{
 @media screen and (max-width: 1000px) {
     #skills ul{
         width: 707px;
+        min-height: 85vh
     }
     #skills li:nth-child(3n + 1) {  /* or 4n+1 */
         clear: both;   
@@ -410,6 +409,7 @@ input.button{
 @media screen and (max-width: 765px) {
     #skills ul{
         width: 477px;
+        min-height: 130vh;
     }
     #skills li:nth-child(3n + 1) {  /* or 4n+1 */
         clear: none;   
