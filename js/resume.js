@@ -71,11 +71,20 @@ $(function() {
     /* navigation */
     var pull 		= $('#pull');
         menu 		= $('nav ul');
+        navigationLink = $('nav ul li');
         menuHeight	= menu.height();
 
     $(pull).on('click', function(e) {
         e.preventDefault();
         menu.slideToggle();
+    });
+
+    $(navigationLink).on('click', function(e) {
+        var w = $(window).width();
+        if(w <= 600) {
+        e.preventDefault();
+        menu.slideToggle();
+        }
     });
 
     $(window).resize(function(){
