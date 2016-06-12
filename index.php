@@ -18,12 +18,12 @@
     </article>
 </article>
 <article id="portfolio" class="parent">
-    <arcticle class="child">
+    <arcticle class="child fadeIn fadeOut">
         <?php include "./content/portfolio.php"; ?>
     </article>
 </article>
 <article id="contact" class="parent">
-    <article class="child">
+    <article class="child fadeIn fadeOut">
         <?php include "./content/contact.php"; ?>
     </article>
 </article>

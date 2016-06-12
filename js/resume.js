@@ -42,6 +42,28 @@ $(window).load(function(){
             });
         }
     });
+
+    var $portfolio = $("#portfolio .child");
+    var portfolio = new Waypoint.Inview({
+        element: $portfolio[0],
+        enter: function() {
+            $portfolio.removeClass('fadeOut');
+        },
+        exited: function() {
+            $portfolio.addClass('fadeOut');
+        }
+    });
+
+    var $contact = $("#contact .child");
+    var contact = new Waypoint.Inview({
+        element: $contact[0],
+        enter: function() {
+            $contact.removeClass('fadeOut');
+        },
+        exited: function() {
+            $contact.addClass('fadeOut');
+        }
+    });
 })
 
 $(function() {

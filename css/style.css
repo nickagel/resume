@@ -199,6 +199,7 @@ article.parent#career{
 
 article.parent#portfolio{
     background-color: #6B7F8C;
+    padding-bottom: 10px;
 }
 
 article.parent#contact{
@@ -442,8 +443,11 @@ input.button{
 }
 
 /* portfolo */
+
 #portfolio h1{
     color: white;
+    padding: 0;
+    padding-bottom: 15px;
 }
 
 #portfolio ol{
