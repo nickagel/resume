@@ -80,27 +80,43 @@ div.timeline-point > div:nth-child(2) > div:nth-child(1) > p:nth-child(3){
 }
 
 /* icon backgrounds */
+div.timeline-point:nth-child(1) > div.timeline-block{
+  visibility: hidden;
+  height: 100px;
+}
+
 div.timeline-point:nth-child(1) > div:nth-child(1){
-    background-image: url("./../images/career/education.png");
+  height: 100px;
+  width: 100px;
+  top: -30px;
+}
+
+div.timeline-point:nth-child(1) > div:nth-child(1){
+    background-image: url("./../images/career/careerBegin.png");
+    background-size: 90px 90px;
 }
 
 div.timeline-point:nth-child(2) > div:nth-child(1){
-    background-image: url("./../images/career/ta.png");
+    background-image: url("./../images/career/education.png");
 }
 
 div.timeline-point:nth-child(3) > div:nth-child(1){
-    background-image: url("./../images/career/uri.png");
+    background-image: url("./../images/career/ta.png");
 }
 
 div.timeline-point:nth-child(4) > div:nth-child(1){
-    background-image: url("./../images/career/uvm.png");
+    background-image: url("./../images/career/uri.png");
 }
 
 div.timeline-point:nth-child(5) > div:nth-child(1){
-    background-image: url("./../images/career/grocery.png");
+    background-image: url("./../images/career/uvm.png");
 }
 
 div.timeline-point:nth-child(6) > div:nth-child(1){
+    background-image: url("./../images/career/grocery.png");
+}
+
+div.timeline-point:nth-child(7) > div:nth-child(1){
     background-image: url("./../images/career/global.png");
 }
 
@@ -222,6 +238,9 @@ div.timeline-point:nth-child(6) > div:nth-child(1){
   div.timeline-point > div:nth-child(2) > div:nth-child(1) > p:nth-child(3){
     text-align: left;
     text-justify: auto;
+  }
+  div.timeline-point:nth-child(1) > div:nth-child(1){
+    left: -50px;
   }
   .timeline-wrap:before {
     left: 30px;
