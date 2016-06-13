@@ -6,5 +6,5 @@
             </ol>
         </footer>
     </body>
-    <script type="text/javascript" src="./ng/app.js"></script>
+    <script aysnc type="text/javascript" src="./scripts.min.js"></script>
 </html>

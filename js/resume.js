@@ -67,7 +67,6 @@ $(window).load(function(){
 })
 
 $(function() {
-
     /* navigation */
     var pull 		= $('#pull');
         menu 		= $('nav ul');
@@ -82,8 +81,8 @@ $(function() {
     $(navigationLink).on('click', function(e) {
         var w = $(window).width();
         if(w <= 600) {
-        e.preventDefault();
-        menu.slideToggle();
+            e.preventDefault();
+            menu.slideToggle();
         }
     });
 

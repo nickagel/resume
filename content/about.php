@@ -1,3 +1,6 @@
+<article id="about" class="parent fadeIn fadeOut">
+<article class="child">
+
 <h1>About Me</h1>
 
 <span ng-repeat="a in content.about">
@@ -12,3 +15,5 @@
     </p>
     <a class="button" href="{{a.link}}">DOWNLOADABLE RESUME</a>
 </span>
+</article>
+</article>
