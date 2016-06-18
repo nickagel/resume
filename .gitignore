@@ -1,2 +1,4 @@
 test.php
 node_modules
+
+*.sh
