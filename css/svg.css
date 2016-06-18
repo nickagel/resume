@@ -28,10 +28,11 @@
 
 /* Colors for the circles and positions for the graphics */
 .size {
-  width: 200px;
-  height: 200px;
-  top: 45px;
-  left: 45px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .html + svg .outer {

@@ -6,13 +6,13 @@ $(window).load(function(){
         enter: function() {
             $skills.removeClass('empty');
             $skillsParent.find("h1").removeClass('fadeOut');
-            $skillsParent.find("img").removeClass('fadeOut');
+            $skillsParent.find("div").removeClass('fadeOut');
             $skillsParent.find("h5").removeClass('fadeOut');
         },
         exited: function() {
             $skills.addClass('empty');
             $skillsParent.find("h1").addClass('fadeOut');
-            $skillsParent.find("img").addClass('fadeOut');
+            $skillsParent.find("div").addClass('fadeOut');
             $skillsParent.find("h5").addClass('fadeOut');
         }
     });
