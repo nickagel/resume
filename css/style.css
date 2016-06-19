@@ -663,7 +663,7 @@ input.button{
     z-index: 100;
 }
 
-#portfolio li:hover .img{
+#portfolio a:hover div{
     opacity: .35;
 }
 
