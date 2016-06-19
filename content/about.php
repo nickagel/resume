@@ -4,7 +4,7 @@
 <h1>About Me</h1>
 
 <span class="content">
-        <img ng-src="./images/me.jpg">
+        <img ng-src="./images/nickagel.jpg">
         <h2 class="rw-sentence">
             <span><b class="bold">Hello.</b> My name is <b class="bold">Nick</b>.</span><br>
             <span id="aboutHello">I am a</span>					
