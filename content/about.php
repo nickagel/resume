@@ -3,7 +3,7 @@
 
 <h1>About Me</h1>
 
-<span class="content" ng-repeat="a in content.about">
+<span class="content" ng-repeat="a in content.about" refresh-all>
         <img ng-src="./images/me.jpg">
         <h2 class="rw-sentence">
             <span><b class="bold">Hello.</b> My name is <b class="bold">Nick</b>.</span><br>

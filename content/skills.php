@@ -3,7 +3,7 @@
 
 <h1 class="fadeIn fadeOut">Technical Skills</h1>
 <ul class="skills empty">
-    <li ng-repeat="s in content.skills">
+    <li ng-repeat="s in content.skills" refresh-all>
         <figure class="chart" data-percent="{{s.percentage}}">
             <figcaption class="{{s.type}}"></figcaption>
             <div class="skills-sprite {{s.type}} size fadeIn fadeOut"></div>
