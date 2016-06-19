@@ -4,7 +4,7 @@ var uglify = require('gulp-uglify')
 var ngAnnotate = require('gulp-ng-annotate')
 
 gulp.task('js', function () {
-  return gulp.src(["!js/data.json", "!js/roboto.google.font.js", "js/jquery-1.12.4.min.js", "js/waypoints.min.js", 'js/*.js', 'ng/*.js'])
+  return gulp.src(["js/jquery-1.12.4.min.js", "js/waypoints.min.js", "js/inview.js", "js/timeline.js", "js/resume.js", 'js/angular-1.5.6.min.js', 'ng/*.js'])
     .pipe(concat("scripts.min.js"))
     .pipe(uglify())
     .pipe(gulp.dest(""))

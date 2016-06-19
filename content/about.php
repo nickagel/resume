@@ -3,17 +3,24 @@
 
 <h1>About Me</h1>
 
-<span ng-repeat="a in content.about">
-    <img ng-src="./images/about/{{a.image}}">
-    <h3>{{a.name}}<h3>
-    <h4><span class="blockWord">{{a.jobTitle1}}</span> &amp; <span class="blockWord">{{a.jobTitle2}}</span></h4>
-    <p>
-        {{a.paragraph1}}
-    </p>
-    <p>
-        {{a.paragraph2}}
-    </p>
-    <a class="button" href="{{a.link}}">DOWNLOADABLE RESUME</a>
+<span class="content" ng-repeat="a in content.about">
+        <img ng-src="./images/me.jpg">
+        <h2 class="rw-sentence">
+            <span><b class="bold">Hello.</b> My name is <b class="bold">Nick</b>.</span><br>
+            <span id="aboutHello">I am a</span>					
+            <div class="rw-words rw-words-1">
+                <span>Software Engineer</span>
+                <span>Web Developer</span>
+                <span>Photographer</span>
+                <span>Freelancer</span>
+                <span>Outdoor Enthusiast</span>
+                <span>Traveler</span>
+            </div>
+            <br />
+            <span>I am <b class="bold">passionate</b> about Web API &amp; UI design. </span>
+            <span>When I am <b class="bold">not coding</b>, I can be found <b class="bold">exploring</b> the great outdoors</span>
+        </h2>
+        <!-- <a class="button" href="{{a.link}}">DOWNLOADABLE RESUME</a> -->
 </span>
 </article>
 </article>
