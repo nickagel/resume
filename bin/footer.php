@@ -1,7 +1,7 @@
         <footer>
             <ol>
                 <li ng-repeat="f in content.footer">
-                    <a id="{{f.id}}" href="{{f.link}}" target="_blank"></a>
+                    <a id="{{f.id}}" class="footer-sprite" href="{{f.link}}" target="_blank"></a>
                 </li>
             </ol>
         </footer>
