@@ -11,9 +11,6 @@ app.controller('dataCtrl', ['$scope','$http', function($scope, $http) {
                 animate: true
             });
         });
-        $scope.$on('Refresh', function(){
-            Waypoint.refreshAll()
-        });
     }
     
     ]
@@ -25,10 +22,4 @@ app.directive('emitLastRepeaterElementTimeline', function() {
         }
     };
 });
-app.directive("refreshALL", function(){
-    return function(scope){
-        if (scope.$last){
-            scope.$emit('Refresh');
-        }
-    }
-})
+setTimeout(function(){ Waypoint.refreshAll(); }, 1200);
