@@ -426,7 +426,7 @@ input.button{
     width: 190px;
 }
 
-.sprite {
+.skills-sprite {
     background-image: url(images/skills.png);
     background-repeat: no-repeat;
     display: block;
@@ -541,16 +541,70 @@ input.button{
     z-index: 100;
 }
 
-#portfolio li:hover img{
+#portfolio li:hover .img{
     opacity: .35;
 }
 
-#portfolio img{
+#portfolio .img{
   -o-transition:color .2s ease-out, opacity .5s ease-in;
   -ms-transition:color .2s ease-out, opacity .5s ease-in;
   -moz-transition:color .2s ease-out, opacity .5s ease-in;
   -webkit-transition:color .2s ease-out, opacity .5s ease-in;
   transition:color .2s ease-out, opacity .5s ease-in;
+}
+
+.portfolio-sprite{
+  background-image: url(./images/portfolio.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.birthdayCalculator {
+    width: 250px;
+    height: 250px;
+    background-position: -5px -5px;
+}
+
+.myWebGrocer {
+    width: 250px;
+    height: 250px;
+    background-position: -265px -5px;
+}
+
+.resume {
+    width: 250px;
+    height: 250px;
+    background-position: -525px -5px;
+}
+
+.sorryStats {
+    width: 250px;
+    height: 250px;
+    background-position: -785px -5px;
+}
+
+.speechTherapyGames {
+    width: 250px;
+    height: 250px;
+    background-position: -1045px -5px;
+}
+
+.uvmCEMS {
+    width: 250px;
+    height: 250px;
+    background-position: -1305px -5px;
+}
+
+.uvmTheatre {
+    width: 250px;
+    height: 250px;
+    background-position: -1565px -5px;
+}
+
+.worksAndDaysFarm {
+    width: 250px;
+    height: 250px;
+    background-position: -1825px -5px;
 }
 
 #portfolio h6 {

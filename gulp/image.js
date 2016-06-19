@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
 
-gulp.task('img', ['about', 'career', 'footer', 'nav', 'portfolio', 'skills'], function(){
+gulp.task('img', ['about', 'career', 'footer', 'nav', 'portfolio', 'skills', 'main'], function(){
 
 })
 
@@ -39,4 +39,10 @@ gulp.task('skills', function () {
     return gulp.src('images/skills/*')
         .pipe(imagemin())
         .pipe(gulp.dest("images/skills"))
+})
+
+gulp.task('main', function () {
+    return gulp.src('images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest("images/"))
 })

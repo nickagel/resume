@@ -3,14 +3,14 @@
       {"name": "Nick Agel", "jobTitle1":"Software Engineer", "jobTitle2":"Web Developer","image":"placeholder.png", "link":"#", "paragraph1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eget nibh non faucibus. Mauris mollis ex vitae purus auctor, ac efficitur arcu ornare. Vestibulum sit amet odio erat. Etiam in magna porta nunc dignissim bibendum. Duis tempus sapien fringilla ipsum euismod, et varius est interdum. Nullam aliquam justo sed nisi aliquet, id commodo nisi malesuada. Morbi sed lacinia sapien. Praesent placerat magna quis lacus euismod, nec luctus risus pharetra.", "paragraph2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eget nibh non faucibus. Mauris mollis ex vitae purus auctor, ac efficitur arcu ornare. Vestibulum sit amet odio erat. Etiam in magna porta nunc dignissim bibendum. Duis tempus sapien fringilla ipsum euismod, et varius est interdum. Nullam aliquam justo sed nisi aliquet, id commodo nisi malesuada. Morbi sed lacinia sapien. Praesent placerat magna quis lacus euismod, nec luctus risus pharetra."}  
     ],
     "portfolio":[
-        {"image":"uvmTheatre.png", "title":"UVM Theatre", "link":"//github.com/nickagel/UVM.Theatre", "backgroundcolor":"#34495e"},
-        {"image":"birthdayCalculator.png", "title":"Birthday Calculator", "link":"//github.com/nickagel/Birthday-Calculator", "backgroundcolor":"#ffb02f"},
-        {"image":"myWebGrocer.png", "title":"MyWebGrocer CONFIDENTIAL", "link":"javascript:void(0);", "backgroundcolor":"#006D81"},
-        {"image":"resume.png", "title":"Portfolio Site", "link":"//github.com/nickagel/Resume", "backgroundcolor":"#e67e22"},
-        {"image":"sorryStats.png", "title":"Game of Sorry Stats", "link":"//github.com/nickagel/Stats-Sorry", "backgroundcolor":"#0085A1"},
-        {"image":"speechTherapyGames.png", "title":"Speech Therapy Games", "link":"//github.com/nickagel/Speech_Therapy_Games", "backgroundcolor":"#bdc3c7"},
-        {"image":"uvmCEMS.png", "title":"UVM CEMS", "link":"//www.uvm.edu/~cems/", "backgroundcolor":"#ecf0f1"},
-        {"image":"worksAndDaysFarm.png", "title":"Works And Days Farm", "link":"http://worksanddaysfarm.com/", "backgroundcolor":"#34495e"}
+        {"type":"uvmTheatre", "image":"uvmTheatre.png", "title":"UVM Theatre", "link":"//github.com/nickagel/UVM.Theatre", "backgroundcolor":"#34495e"},
+        {"type":"birthdayCalculator", "image":"birthdayCalculator.png", "title":"Birthday Calculator", "link":"//github.com/nickagel/Birthday-Calculator", "backgroundcolor":"#ffb02f"},
+        {"type":"myWebGrocer", "image":"myWebGrocer.png", "title":"MyWebGrocer CONFIDENTIAL", "link":"javascript:void(0);", "backgroundcolor":"#006D81"},
+        {"type":"resume", "image":"resume.png", "title":"Portfolio Site", "link":"//github.com/nickagel/Resume", "backgroundcolor":"#e67e22"},
+        {"type":"sorryStats", "image":"sorryStats.png", "title":"Game of Sorry Stats", "link":"//github.com/nickagel/Stats-Sorry", "backgroundcolor":"#0085A1"},
+        {"type":"speechTherapyGames", "image":"speechTherapyGames.png", "title":"Speech Therapy Games", "link":"//github.com/nickagel/Speech_Therapy_Games", "backgroundcolor":"#bdc3c7"},
+        {"type":"uvmCEMS", "image":"uvmCEMS.png", "title":"UVM CEMS", "link":"//www.uvm.edu/~cems/", "backgroundcolor":"#ecf0f1"},
+        {"type":"worksAndDaysFarm", "image":"worksAndDaysFarm.png", "title":"Works And Days Farm", "link":"http://worksanddaysfarm.com/", "backgroundcolor":"#34495e"}
     ],
     "career":[
         {},
