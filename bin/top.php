@@ -29,7 +29,7 @@
                 color: #ffb02f;
             }
             .sendToBack{
-                z-index: 0 !important;
+                z-index: -1 !important;
             }
         </style>
     </head>
