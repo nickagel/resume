@@ -5,7 +5,9 @@ $(window).load(function(){
     var skills = new Waypoint.Inview({
         element: $skills[0],
         enter: function() {
-            $loader.addClass('fadeOut');
+            $loader.addClass('fadeOut').delay(1000).queue(function(){
+                $(this).addClass('sendToBack');
+            });
             $skills.removeClass('empty');
             $skillsParent.find("h1").removeClass('fadeOut');
             $skillsParent.find("div").removeClass('fadeOut');
@@ -23,7 +25,9 @@ $(window).load(function(){
     var about = new Waypoint.Inview({
         element: $about[0],
         enter: function() {
-            $loader.addClass('fadeOut');
+            $loader.addClass('fadeOut').delay(1000).queue(function(){
+                $(this).addClass('sendToBack');
+            });
             $about.removeClass('fadeOut');
         },
         exited: function() {
@@ -36,7 +40,9 @@ $(window).load(function(){
     var career = new Waypoint.Inview({
         element: $career[0],
         enter: function() {
-            $loader.addClass('fadeOut');
+            $loader.addClass('fadeOut').delay(1000).queue(function(){
+                $(this).addClass('sendToBack');
+            });
             $career.removeClass('fadeOut');
         },
         exited: function() {
@@ -51,7 +57,9 @@ $(window).load(function(){
     var portfolio = new Waypoint.Inview({
         element: $portfolio[0],
         enter: function() {
-            $loader.addClass('fadeOut');
+            $loader.addClass('fadeOut').delay(1000).queue(function(){
+                $(this).addClass('sendToBack');
+            });
             $portfolio.removeClass('fadeOut');
         },
         exited: function() {
@@ -63,6 +71,9 @@ $(window).load(function(){
     var contact = new Waypoint.Inview({
         element: $contact[0],
         enter: function() {
+            $loader.addClass('fadeOut').delay(1000).queue(function(){
+                $(this).addClass('sendToBack');
+            });
             $contact.removeClass('fadeOut');
         },
         exited: function() {

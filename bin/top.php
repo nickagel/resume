@@ -28,6 +28,9 @@
                 font-weight: 900;
                 color: #ffb02f;
             }
+            .sendToBack{
+                z-index: 0 !important;
+            }
         </style>
     </head>
     <body ng-app="dataApp" ng-controller="dataCtrl">
