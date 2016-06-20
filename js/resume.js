@@ -6,7 +6,7 @@ $(window).load(function(){
     var skills = new Waypoint.Inview({
         element: $skills[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(1000).queue(function(){
+            $loader.addClass('fadeOut').delay(250).queue(function(){
                 $(this).addClass('sendToBack');
             });
             $html.removeClass('preventScroll');
@@ -27,7 +27,7 @@ $(window).load(function(){
     var about = new Waypoint.Inview({
         element: $about[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(1000).queue(function(){
+            $loader.addClass('fadeOut').delay(250).queue(function(){
                 $(this).addClass('sendToBack');
             });
             $html.removeClass('preventScroll');
@@ -43,7 +43,7 @@ $(window).load(function(){
     var career = new Waypoint.Inview({
         element: $career[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(1000).queue(function(){
+            $loader.addClass('fadeOut').delay(250).queue(function(){
                 $(this).addClass('sendToBack');
             });
             $html.removeClass('preventScroll');
@@ -61,7 +61,7 @@ $(window).load(function(){
     var portfolio = new Waypoint.Inview({
         element: $portfolio[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(1000).queue(function(){
+            $loader.addClass('fadeOut').delay(250).queue(function(){
                 $(this).addClass('sendToBack');
             });
             $html.removeClass('preventScroll');
@@ -76,7 +76,7 @@ $(window).load(function(){
     var contact = new Waypoint.Inview({
         element: $contact[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(1000).queue(function(){
+            $loader.addClass('fadeOut').delay(250).queue(function(){
                 $(this).addClass('sendToBack');
             });
             $html.removeClass('preventScroll');
@@ -123,7 +123,7 @@ $(function() {
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: target.offset().top - 40
-            }, 1000);
+            }, 250);
         }
     });
 
