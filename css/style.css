@@ -7,7 +7,7 @@
 }
 
 /* Basic Styles */
-body {
+html {
     background-color: #0085A1;
 }
 
@@ -33,6 +33,24 @@ article{
 
 :focus{
     outline: none; 
+}
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
 }
 
 /* navigation */
@@ -398,7 +416,7 @@ input.button{
 	color: #e67e22;
 	font-size: 250%;
     font-weight: 900;
-	margin-top: 2px;
+	margin-top: 3px;
 	-webkit-animation: rotateWord 18s linear infinite 0s;
 	-ms-animation: rotateWord 18s linear infinite 0s;
 	animation: rotateWord 18s linear infinite 0s;

@@ -1,9 +1,11 @@
 $(window).load(function(){
+    var $loader = $("#loading");
     var $skills = $('.skills');
     var $skillsParent = $('#skills');
     var skills = new Waypoint.Inview({
         element: $skills[0],
         enter: function() {
+            $loader.addClass('fadeOut');
             $skills.removeClass('empty');
             $skillsParent.find("h1").removeClass('fadeOut');
             $skillsParent.find("div").removeClass('fadeOut');
@@ -21,6 +23,7 @@ $(window).load(function(){
     var about = new Waypoint.Inview({
         element: $about[0],
         enter: function() {
+            $loader.addClass('fadeOut');
             $about.removeClass('fadeOut');
         },
         exited: function() {
@@ -33,6 +36,7 @@ $(window).load(function(){
     var career = new Waypoint.Inview({
         element: $career[0],
         enter: function() {
+            $loader.addClass('fadeOut');
             $career.removeClass('fadeOut');
         },
         exited: function() {
@@ -47,6 +51,7 @@ $(window).load(function(){
     var portfolio = new Waypoint.Inview({
         element: $portfolio[0],
         enter: function() {
+            $loader.addClass('fadeOut');
             $portfolio.removeClass('fadeOut');
         },
         exited: function() {
