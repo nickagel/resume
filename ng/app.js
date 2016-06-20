@@ -12,14 +12,13 @@ app.controller('dataCtrl', ['$scope','$http', function($scope, $http) {
             });
         });
     }
-    
     ]
-);
-app.directive('emitLastRepeaterElementTimeline', function() {
+)
+.directive('emitLastRepeaterElementTimeline', function() {
     return function(scope) {
         if (scope.$last){
             scope.$emit('ActivateTimeline');
         }
     };
-});
+})
 setTimeout(function(){ Waypoint.refreshAll(); }, 1200);

@@ -18,6 +18,15 @@
 .timeline-block{
   color:#34495e;
 }
+.timeline-link:link, .timeline-link:visited, .timeline-link:focus{
+    text-decoration:none;
+    color:inherit;
+}
+ .timeline-link:hover{
+     color:inherit;
+     cursor:inherit;
+ }
+
 .timeline-wrap:before {
   background: -webkit-linear-gradient(#006D81, #006D81 50%, #bdc3c7 50%, #bdc3c7);
   background: -o-linear-gradient(#006D81, #006D81 50%, #bdc3c7 50%, #bdc3c7);

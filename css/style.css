@@ -663,6 +663,10 @@ input.button{
     z-index: 100;
 }
 
+#myWebGrocer{
+    cursor:not-allowed;
+}
+
 #portfolio a:hover div{
     opacity: .35;
 }
