@@ -1,4 +1,8 @@
-# One year for image files
 <filesMatch ".(jpg|jpeg|png|gif|ico)$">
 Header set Cache-Control "max-age=31536000, public"
 </filesMatch>
+<IfModule mod_deflate.c>
+ <FilesMatch "\\.(js|css|html|htm|json|php|xml)$">
+   SetOutputFilter DEFLATE
+ </FilesMatch>
+</IfModule>
