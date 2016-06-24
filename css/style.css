@@ -433,7 +433,7 @@ input.button{
 	overflow: hidden;
 	color: #e67e22;
 	font-size: 250%;
-    font-weight: 900;
+    font-weight: 500;
 	margin-top: 1.5px;
 	-webkit-animation: rotateWord 18s linear infinite 0s;
 	-ms-animation: rotateWord 18s linear infinite 0s;
@@ -495,6 +495,9 @@ input.button{
 }
 @media screen and (max-width: 768px){
 	.rw-sentence { font-size: 18px; }
+    .rw-words-1 span{
+        margin-top: 1px;
+    }
 }
 @media screen and (max-width:500px){
     #aboutHello{
@@ -502,7 +505,7 @@ input.button{
     }
     .rw-words-1 span{
         font-size: 215%;
-        font-weight: 900;
+        font-weight: 500;
         margin-top: -28px;
     }
     .rw-words{
@@ -512,8 +515,8 @@ input.button{
 @media screen and (max-width: 400px){
 	.rw-sentence { font-size: 9px; }
     .rw-words-1 span{
-        font-size: inherit;
-        margin-top: -14px;
+        font-size: 130%;
+        margin-top: -17px;
     }
     .rw-words{
         text-indent: 5px;
@@ -810,7 +813,7 @@ input.button{
     }
 }
 
-@media screen and (max-width: 764px){
+@media screen and (max-width: 800px){
     #portfolio ol{
         max-width: 508px;
     }
