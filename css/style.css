@@ -193,6 +193,14 @@ article.parent{
     display: flex;
 }
 
+@media screen and (min-width:820px){
+    @media screen and (min-height:820px){
+       article.parent{
+           min-height: 96vh;
+       } 
+    }
+}
+
 .fadeIn{
     opacity: 1;
     -moz-transition: opacity .25s ease-in-out;
@@ -633,7 +641,7 @@ input.button{
     background-position: -375px -375px
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1045px) {
     #skills ul{
         width: 707px;
         min-height: 85vh
@@ -792,7 +800,7 @@ input.button{
   opacity: 1;
 }
 
-@media screen and (max-width:1020px){
+@media screen and (max-width:1045px){
     #portfolio ol{
         max-width: 762px;
     }
@@ -808,7 +816,7 @@ input.button{
     }
 }
 
-@media screen and (max-width: 512px){
+@media screen and (max-width: 540px){
     #portfolio ol{
         max-width: 254px;
     }

@@ -109,7 +109,7 @@ div.timeline-icon{
 
 div.timeline-point:nth-child(7) > div:nth-child(1){
     background-size: 200px;
-    background-position: 5px 5px;
+    background-position: 3px 5px;
 }
 
 div.timeline-point:nth-child(6) > div:nth-child(1){
