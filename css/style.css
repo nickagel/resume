@@ -580,7 +580,7 @@ input.button{
     list-style-type: none;
     margin: 0 auto;
     width: 970px;
-    min-height: 50vh;
+    min-height: 400px;
 }
 
 #skills ul li{
@@ -647,7 +647,7 @@ input.button{
 @media screen and (max-width: 1045px) {
     #skills ul{
         width: 707px;
-        min-height: 85vh
+        min-height: 750px;
     }
     #skills li:nth-child(3n + 1) {  /* or 4n+1 */
         clear: both;   
@@ -657,7 +657,7 @@ input.button{
 @media screen and (max-width: 765px) {
     #skills ul{
         width: 477px;
-        min-height: 130vh;
+        min-height: 1040px;
     }
     #skills li:nth-child(3n + 1) {  /* or 4n+1 */
         clear: none;   
