@@ -1,11 +1,4 @@
 /* Basic Styles */
-html {
-    background-color: #0085A1;
-}
-
-article{
-    display:block;
-}
 
 .button{
     background-color: #e67e22;
@@ -22,98 +15,7 @@ article{
     transition: .25s;
     cursor:pointer;
 }
-
-:focus{
-    outline: none; 
-}
-
-.pulsate {
-    -webkit-animation: pulsate 3s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 0.5;
-}
-
-@-webkit-keyframes pulsate {
-    0% { 
-        opacity: 0.5;
-    }
-    50% { 
-        opacity: 1.0;
-    }
-    100% { 
-        opacity: 0.5;
-    }
-}
-
-/* navigation */
-
-
 /* articles */
-h1, h2{
-    text-align: center;
-}
-
-h1{
-    text-transform: uppercase;
-    font-size: 350%;
-    padding: 20px;
-    font-weight: 400;
-}
-h2{
-    font-size: 14pt;
-    margin-top:-5px;
-    padding-bottom:20px;
-}
-
-h3{
-    font-size: 16pt;
-    font-weight: 500;
-}
-
-h4{
-    font-size: 14pt;
-}
-
-h5{
-    font-size: 9pt;
-    text-align: right;
-    padding-top: 10px;
-}
-
-article.parent{
-    min-height: 95vh;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-@media screen and (min-width:820px){
-    @media screen and (min-height:820px){
-       article.parent{
-           min-height: 96vh;
-       } 
-    }
-}
-
-.fadeIn{
-    opacity: 1;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-    transition: opacity .25s ease-in-out;
-}
-
-.overlayFadeIn{
-    opacity: 1;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-    transition: opacity .25s ease-in-out;
-}
-
-.fadeOut{
-    opacity: 0 !important;
-}
 
 
 
@@ -135,27 +37,6 @@ article.parent#contact{
     background-color:#34495e;
 }
 
-article.child{
-    max-width: 1200px;
-    width:100%;
-    margin: 0 auto;
-    padding: 30px;
-}
-
-article.child:after{
-    clear: both;
-    content: "";
-    display: block;
-}
-
-@media screen and (max-width:320px){
-    h1{
-        font-size: 250%;
-    }
-    h4{
-        font-size: 12pt;
-    }
-}
 
 /* CONTACT */
 #contact {
