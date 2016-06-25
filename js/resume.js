@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(function(){
     var $loader = $("#loading");
     var $html = $('html');
     var $skills = $('.skills');
@@ -39,7 +39,6 @@ $(window).load(function(){
     });
 
     var $career = $("#career .child");
-    var $timeline = $career.find('.timeline-block');
     var career = new Waypoint.Inview({
         element: $career[0],
         enter: function() {
@@ -51,7 +50,7 @@ $(window).load(function(){
         },
         exited: function() {
             $career.addClass('fadeOut');
-            $timeline.each(function() {
+            $career.find('.timeline-block').each(function() {
                 $(this).addClass('fadeOut');
             });
         }
@@ -86,9 +85,6 @@ $(window).load(function(){
             $contact.addClass('fadeOut');
         }
     });
-})
-
-$(function() {
     /* navigation */
     var pull 		= $('#pull');
         menu 		= $('nav ul');
@@ -126,9 +122,6 @@ $(function() {
             }, 250);
         }
     });
-
-    /* google maps CONTACT */
-    $('#map').addClass('scrolloff');      
     
     $('#overlay').on("mouseup",function(){        
         $('#map').addClass('scrolloff'); 
@@ -138,7 +131,13 @@ $(function() {
         $('#map').removeClass('scrolloff');
     });
 
-    $("#map").mouseleave(function () {            
+    $("#overlay").mouseleave(function () {            
         $('#map').addClass('scrolloff');            
     });
+    var vidDefer = document.getElementsByTagName('iframe');
+    for (var i=0; i<vidDefer.length; i++) {
+        if(vidDefer[i].getAttribute('data-src')) {
+            vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+        } 
+    }   
 });
