@@ -63,6 +63,25 @@ article.parent#contact{
     border: dashed 4px rgba(10, 10, 10, .5);
 }
 
+@media screen and (max-width: 1024px){
+    #contact iframe, #contact .map{
+        max-width: 865px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 924px){
+    #contact iframe, #contact .map{
+        max-width: 765px;
+    }
+}
+
+@media screen and (max-width: 824px){
+    #contact iframe, #contact .map{
+        max-width: 665px;
+    }
+}
+
 /* contact form */
 #contact form{
     width: 544px;
@@ -392,6 +411,19 @@ input.button{
 @media screen and (max-width: 800px){
     #portfolio ol{
         max-width: 508px;
+    }
+}
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    #portfolio ol,#portfolio h1{
+        margin-left: 126px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    #portfolio ol,#portfolio h1{
+        margin-left: 131px;
     }
 }
 
