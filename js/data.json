@@ -20,8 +20,8 @@
     ],
     "skills":[
         {"type":"html", "percentage":"75", "title":"HTML5 / CSS3", "image":"html-css.png"},
-        {"type":"mongo-sql", "percentage":"75", "title":"MySQL / MonogDb", "image":"sql-mongo.png"},
-        {"type":"net", "percentage":"65", "title":"ASP.Net / C#", "image":"net.png"},
+        {"type":"mongo-sql", "percentage":"75", "title":"MySQL / MongoDb", "image":"sql-mongo.png"},
+        {"type":"net", "percentage":"65", "title":"ASP.NET / C#", "image":"net.png"},
         {"type":"node", "percentage":"75", "title":"Express / Node.js", "image":"node.png"},
         {"type":"php", "percentage":"75", "title":"PHP", "image":"php.png"},
         {"type":"python", "percentage":"75", "title":"Python", "image":"python.png"},
