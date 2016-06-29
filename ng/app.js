@@ -10,6 +10,8 @@ app.controller('dataCtrl', ['$scope','$http', function($scope, $http) {
                 showDate: true,
                 animate: true
             });
+            $("#loading").addClass('sendToBack').addClass('fadeOut');
+            $('html').removeClass('preventScroll');
         });
     }
     ]

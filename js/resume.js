@@ -1,15 +1,9 @@
 $(function(){
-    var $loader = $("#loading");
-    var $html = $('html');
     var $skills = $('.skills');
     var $skillsParent = $('#skills');
     var skills = new Waypoint.Inview({
         element: $skills[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(250).queue(function(){
-                $(this).addClass('sendToBack');
-            });
-            $html.removeClass('preventScroll');
             $skills.removeClass('empty');
             $skillsParent.find("h1").removeClass('fadeOut');
             $skillsParent.find("div").removeClass('fadeOut');
@@ -27,10 +21,6 @@ $(function(){
     var about = new Waypoint.Inview({
         element: $about[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(250).queue(function(){
-                $(this).addClass('sendToBack');
-            });
-            $html.removeClass('preventScroll');
             $about.removeClass('fadeOut');
         },
         exited: function() {
@@ -42,10 +32,6 @@ $(function(){
     var career = new Waypoint.Inview({
         element: $career[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(250).queue(function(){
-                $(this).addClass('sendToBack');
-            });
-            $html.removeClass('preventScroll');
             $career.removeClass('fadeOut');
         },
         exited: function() {
@@ -60,14 +46,12 @@ $(function(){
     var portfolio = new Waypoint.Inview({
         element: $portfolio[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(250).queue(function(){
-                $(this).addClass('sendToBack');
-            });
-            $html.removeClass('preventScroll');
             $portfolio.removeClass('fadeOut');
+            $portfolio.find('a div').removeClass('shrink');
         },
         exited: function() {
             $portfolio.addClass('fadeOut');
+            $portfolio.find('a div').addClass('shrink');
         }
     });
 
@@ -75,10 +59,6 @@ $(function(){
     var contact = new Waypoint.Inview({
         element: $contact[0],
         enter: function() {
-            $loader.addClass('fadeOut').delay(250).queue(function(){
-                $(this).addClass('sendToBack');
-            });
-            $html.removeClass('preventScroll');
             $contact.removeClass('fadeOut');
         },
         exited: function() {
