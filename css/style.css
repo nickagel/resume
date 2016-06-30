@@ -12,7 +12,7 @@
 
 .button:hover{
     background-color:#ffb02f;
-    transition: .25s;
+    transition: .5s;
     cursor:pointer;
 }
 /* articles */
@@ -308,9 +308,9 @@ input.button{
     cursor:not-allowed;
 }
 #portfolio a div{
-    -webkit-transition: -moz-transform 1s ease-out; 
-    -moz-transition: -webkit-transform 1s ease-out; 
-    transition: transform 1s ease-out; 
+    -webkit-transition: -moz-transform .4s ease-out; 
+    -moz-transition: -webkit-transform .4s ease-out; 
+    transition: transform .4s ease-out; 
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -327,11 +327,11 @@ input.button{
 }
 
 #portfolio .img{
-  -o-transition:color .2s ease-out, opacity .25s ease-in;
-  -ms-transition:color .2s ease-out, opacity .25s ease-in;
-  -moz-transition:color .2s ease-out, opacity .25s ease-in;
-  -webkit-transition:color .2s ease-out, opacity .25s ease-in;
-  transition:color .2s ease-out, opacity .25s ease-in;
+  -o-transition:color .5s ease-out, opacity .5s ease-in;
+  -ms-transition:color .5s ease-out, opacity .5s ease-in;
+  -moz-transition:color .5s ease-out, opacity .5s ease-in;
+  -webkit-transition:color .5s ease-out, opacity .5s ease-in;
+  transition:color .5s ease-out, opacity .5s ease-in;
 }
 
 .portfolio-sprite{
@@ -401,11 +401,10 @@ input.button{
   font-size: 2rem;
   transform: translate(-50%, -50%);
   opacity: 0;
-  -o-transition:color .2s ease-out, opacity .25s ease-in;
-  -ms-transition:color .2s ease-out, opacity .25s ease-in;
-  -moz-transition:color .2s ease-out, opacity .25s ease-in;
-  -webkit-transition:color .2s ease-out, opacity .25s ease-in;
-  transition:color .2s ease-out, opacity .25s ease-in;
+  -o-transition:.5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 #portfolio li:hover h6{
@@ -471,11 +470,11 @@ footer a{
 
 footer img{
   opacity:1;
-  -o-transition:color .2s ease-out, opacity .25s ease-in;
-  -ms-transition:color .2s ease-out, opacity .25s ease-in;
-  -moz-transition:color .2s ease-out, opacity .25s ease-in;
-  -webkit-transition:color .2s ease-out, opacity .25s ease-in;
-  transition:color .2s ease-out, opacity .25s ease-in;
+  -o-transition:color .5s ease-out, opacity .5s ease-in;
+  -ms-transition:color .5s ease-out, opacity .5s ease-in;
+  -moz-transition:color .5s ease-out, opacity .5s ease-in;
+  -webkit-transition:color .5s ease-out, opacity .5s ease-in;
+  transition:color .5s ease-out, opacity .5s ease-in;
 }
 
 .footer-sprite{
@@ -487,12 +486,13 @@ footer img{
 footer #git{
     width: 50px;
     height: 50px;
+    border-radius: 180px;
     background-position: -5px -5px;
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    -ms-transition: .25s ease-in-out;        
-    transition: .25s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;        
+    transition: .5s ease-in-out;
 }
 
 footer #git:hover{
@@ -503,12 +503,13 @@ footer #git:hover{
 footer #in{
     width: 50px;
     height: 50px;
+    border-radius: 180px;
     background-position: -5px -125px;
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    -ms-transition: .25s ease-in-out;        
-    transition: .25s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;        
+    transition: .5s ease-in-out;
 }
 
 footer #in:hover{
@@ -519,12 +520,13 @@ footer #in:hover{
 footer #insta{
     width: 50px;
     height: 49px;
+    border-radius: 180px;
     background-position: -5px -245px;
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    -ms-transition: .25s ease-in-out;        
-    transition: .25s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;        
+    transition: .5s ease-in-out;
 }
 
 footer #insta:hover{

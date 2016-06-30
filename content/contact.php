@@ -6,10 +6,10 @@
 </aside>
 <form>
     <legend id="message">Send Me a Message</legend>
-    <input placeholder="Name" type="text" name="name">
-    <input placeholder="Email" type="email" name="email">
-    <textarea placeholder="Message..." name="comments"></textarea></textarea>
-    <input type="submit" name="submit" value="Send" class="button">
+    <input placeholder="Name" type="text" name="name" autocomplete="off" required>
+    <input type="email" placeholder="Email" type="email" name="email" autocomplete="off" required>
+    <textarea placeholder="Message..." name="comments" type="text" autocomplete="off" required></textarea>
+    <input type="submit" value="Submit" class="button">
 </form>
 
 </article>
