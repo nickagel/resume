@@ -53,6 +53,7 @@ article.parent#contact{
     max-width: 1000px;
     margin: 0 auto;
     cursor:pointer;
+    margin-left: -4px;
 }
 
 #contact iframe{

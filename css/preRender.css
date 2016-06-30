@@ -418,6 +418,7 @@ nav {
 
 nav li:nth-child(1) a{
     width: 100%;
+    padding-right: 4px;
 }
 
 nav li:nth-child(1) a:hover{
@@ -438,7 +439,7 @@ nav b{
 nav ul {
     padding: 0;
     margin: 0 auto;
-    width: 655px;
+    width: 660px;
     height: 40px;
 }
 nav li {
