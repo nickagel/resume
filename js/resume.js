@@ -78,7 +78,7 @@ $(function(){
 
     $(navigationLink).on('click', function(e) {
         var w = $(window).width();
-        if(w <= 600) {
+        if(w <= 680) {
             e.preventDefault();
             menu.slideToggle();
         }
