@@ -53,7 +53,10 @@ article.parent#contact{
     max-width: 1000px;
     margin: 0 auto;
     cursor:pointer;
-    margin-left: -4px;
+}
+
+#contact button{
+    border: none;
 }
 
 #contact iframe{
@@ -131,6 +134,34 @@ input.button{
     text-transform: uppercase; 
 }
 
+#form-messages{
+    float:right;
+    opacity: 0;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    width: 65%;
+    text-align: center;
+}
+
+.success {
+  padding: 16px;
+  background-color: #27ae60;
+  color: #dff0d8;
+  opacity: 1 !important;
+}
+
+.error {
+  padding: 16px;
+  background-color: #c0392b;
+  color: #f2dede;
+  opacity: 1 !important;
+}
+
+#contact .button{
+    width:25%;
+}
+
 @media screen and (max-width: 610px){
     #contact form{
         width:100%;
@@ -143,6 +174,18 @@ input.button{
     input[type="email"]{
         float:none;
         margin-top:20px;
+    }
+    #contact .button{
+        width: 100%;
+    }
+    #form-messages{
+        width: 100%;
+        float:none;
+        display: block;
+    }
+    .success,.error{
+        padding-left:0;
+        padding-right:0;
     }
 }
 
