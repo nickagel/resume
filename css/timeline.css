@@ -117,15 +117,16 @@ div.timeline-point:nth-child(6) > div:nth-child(1){
 }
 
 div.timeline-point:nth-child(5) > div:nth-child(1){
-  background-position: -45px -90px;  
+  background-position: -93px -93px;
 }
 
 div.timeline-point:nth-child(4) > div:nth-child(1){
-    background-position: -132px 1px 
+    background-position: -45px -90px
+
 }
 
 div.timeline-point:nth-child(3) > div:nth-child(1){
-    background-position: -93px -93px; 
+    background-position: -132px 1px;  
 }
 
 div.timeline-point:nth-child(2) > div:nth-child(1){
@@ -262,22 +263,22 @@ div.timeline-point:nth-child(1) > div:nth-child(1){
   }
 
   div.timeline-point:nth-child(6) > div:nth-child(1){
-    background-position: -48px -2px;
+    background-position: -46px -2px;
     background-size: 95px;
   }
 
   div.timeline-point:nth-child(5) > div:nth-child(1){
-    background-position: -46px -1px;
+    background-position: -50px -50px;
     background-size: 95px;
   }
 
   div.timeline-point:nth-child(4) > div:nth-child(1){
-    background-position: -70px -1px;
+    background-position: -24px -49px;
     background-size: 95px;
   }
 
   div.timeline-point:nth-child(3) > div:nth-child(1){
-    background-position: -50px -50px;
+    background-position: -70px -1px;
     background-size: 95px;
   }
 
