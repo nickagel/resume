@@ -1,3 +1,29 @@
+<html>
+<head>
+    <style>
+        *{
+            text-align: center;
+            font-size: 1.5em;
+            font-family: sans-serif;
+        }
+        body{
+            background-color: #0085A1;
+        }
+        p{
+            color:white;
+        }
+        a{
+            color:#ffb02f;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #e67e22;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+<p>
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = strip_tags(trim($_POST["name"]));
@@ -89,3 +115,6 @@
     }
 
 ?>
+</p>
+<a href="http://nagel.w3.uvm.edu/a/noscript/">click here to return</a>
+</body>

@@ -427,11 +427,11 @@ nav li:nth-child(1) a:hover{
 
 nav .logo{
     font-size:220%;
+    font-weight: 400;
 }
 
 nav b{
-    font-weight: 500;
-    text-decoration: underline;
+    font-weight: 100;
     font-size: 100%;
     margin-left: -7px;
 }
@@ -513,7 +513,7 @@ nav a#pull {
     }
     nav a#pull:after {
         content:"";
-        background: url('./images/nav/nav-icon.png') no-repeat;
+        background: url('./images/nav-icon.png') no-repeat;
         width: 30px;
         height: 30px;
         display: inline-block;

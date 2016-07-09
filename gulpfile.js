@@ -6,5 +6,5 @@ fs.readdirSync(__dirname + '/gulp').forEach(function (task) {
 })
 
 gulp.task('build', ['css', 'js', 'html'])
-gulp.task('image-build', ['imgs'])
+gulp.task('image-build', ['img'])
 gulp.task('preRenderBuild',['preRendered'])
