@@ -43,8 +43,8 @@ article.parent#contact{
     color: #ffb02f;
 }
 
-#contact .scrolloff {
-        pointer-events: none;
+#contact .child{
+    padding-right: 34px;
 }
 
 #contact .map{
@@ -52,36 +52,34 @@ article.parent#contact{
     height: 250px;
     max-width: 1000px;
     margin: 0 auto;
-    cursor:pointer;
+}
+
+#border{
+    display: block;
+    border: dashed 4px rgba(10, 10, 10, .5);
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #contact button{
     border: none;
 }
 
-#contact iframe{
-    width: 100%;
-    height: 250px;
-    max-width: 1000px;
-    margin: 0 auto;
-    border: dashed 4px rgba(10, 10, 10, .5);
-}
-
 @media screen and (max-width: 1024px){
-    #contact iframe, #contact .map{
+    #contact .map, #border{
         max-width: 865px;
         display: block;
     }
 }
 
 @media screen and (max-width: 924px){
-    #contact iframe, #contact .map{
+    #border, #contact .map{
         max-width: 765px;
     }
 }
 
 @media screen and (max-width: 824px){
-    #contact iframe, #contact .map{
+    #border, #contact .map{
         max-width: 665px;
     }
 }
@@ -452,6 +450,11 @@ input.button{
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+}
+
+#portfolio .child{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #portfolio li:hover h6{

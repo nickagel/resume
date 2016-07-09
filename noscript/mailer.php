@@ -1,5 +1,8 @@
 <html>
 <head>
+    <title>Nick Agel</title>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
     <style>
         *{
             text-align: center;

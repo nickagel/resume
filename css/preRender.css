@@ -439,7 +439,7 @@ nav b{
 nav ul {
     padding: 0;
     margin: 0 auto;
-    width: 660px;
+    width:  820px;
     height: 40px;
 }
 nav li {
@@ -476,6 +476,12 @@ nav li:first-child a:hover{
 
 nav a#pull {
     display: none;
+}
+
+@media screen and (max-width:860px){
+    nav ul{
+        width:660px;
+    }
 }
 
 @media screen and (max-width: 680px) {
