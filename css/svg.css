@@ -202,3 +202,21 @@
     stroke-dashoffset: 401;
   }
 }
+
+@-webkit-keyframes show65 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+
+@keyframes show65 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  to {
+    stroke-dashoffset: 200;
+  }
+}
