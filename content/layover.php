@@ -1,4 +1,4 @@
-<div id="loading" class="overlayFadeIn"><figure class="loader"><figcaption class="pulsate">LOADING...</figcaption> </figure></div>
+<div id="loading" class="overlayFadeIn"><figure class="loader"><figcaption class="pulsate">LOADING</figcaption> </figure></div>
 
 <noscript>
 <div style="z-index:9000;" id="loading" class="overlayFadeIn"><figure class="loader"><figcaption style="font-size:150%;padding:20px;">
