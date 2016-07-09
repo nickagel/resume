@@ -52,7 +52,7 @@
             exit;
         }
 
-        $recipient = "nickagel1@gmail.com";
+        $recipient = "me@nickagel.com";
 
         $subject = "New contact from $name";
 
