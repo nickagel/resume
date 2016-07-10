@@ -65,5 +65,5 @@
 
 ?>
 </p>
-<a href="http://nagel.w3.uvm.edu/a/noscript/">click here to return</a>
+<a href="http://nickagel.com/noscript/">click here to return</a>
 </body>
