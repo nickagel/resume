@@ -102,24 +102,6 @@ $(function(){
             }, 250);
         }
     });
-    
-    // $('#overlay').on("mouseup",function(){        
-    //     $('#map').addClass('scrolloff'); 
-    // });
-    
-    // $('#overlay').on("mousedown",function(){        
-    //     $('#map').removeClass('scrolloff');
-    // });
-
-    // $("#overlay").mouseleave(function () {            
-    //     $('#map').addClass('scrolloff');            
-    // });
-    // var vidDefer = document.getElementsByTagName('iframe');
-    // for (var i=0; i<vidDefer.length; i++) {
-    //     if(vidDefer[i].getAttribute('data-src')) {
-    //         vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
-    //     } 
-    // } 
 
     /*contact form*/
 	var form = $('#ajax-contact');

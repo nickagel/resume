@@ -24,3 +24,4 @@ app.controller('dataCtrl', ['$scope','$http', function($scope, $http) {
     };
 })
 setTimeout(function(){ Waypoint.refreshAll(); }, 1200);
+setTimeout(function(){ Waypoint.refreshAll(); }, 4200);
