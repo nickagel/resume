@@ -3,7 +3,7 @@
     <head>
         <title>Nick Agel</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Nick Agel">
+        <meta name="description" content="Hi my name is Nick Agel. I am Software Engineer. I am passionate about Web API and UI design. When I am not coding, I can be found exploring the great outdoors.">
         <meta name="google-site-verification" content="Gm7ZYvtxCPcRVQMCaMUPMkaFZD2Je5xy4-dAnl4PAbU" />
         <meta name="keywords" content="Nick Agel, Software Engineer, Web Developer, Consultant, HTML,CSS,JavaScript, AngularJS, Node.js, .NET, UVM, MyWebGrocer, GLOBALFOUNDRIES, Computer Science, PHP, Python, Java, MySQL, MongoDb, Freelancer">
         <meta name="author" content="Nick Agel">
