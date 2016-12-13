@@ -98,6 +98,7 @@ div.timeline-point:nth-child(8) > div:nth-child(1){
   height: 100px;
   width: 100px;
   margin-top: 30px;
+  background-position: 4px 4px;
 }
 
 div.timeline-icon{
