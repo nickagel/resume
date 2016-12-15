@@ -1,4 +1,6 @@
 test.php
 node_modules
-
+index.html
 *.sh
+css/preRender.min.css
+scripts.min.js
