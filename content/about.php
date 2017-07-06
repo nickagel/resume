@@ -16,7 +16,7 @@
                 <span>Traveler.</span>
             </div>
             <br />
-            <span>I am <b class="bold">passionate</b> about Web API &amp; UI design. </span>
+            <span>I am <b class="bold">passionate</b> about Full-Stack development. </span>
             <span>When I am <b class="bold">not coding</b>, I can be found <b class="bold">exploring</b> the great outdoors.</span>
         </h2>
 </span>

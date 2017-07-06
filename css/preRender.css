@@ -60,12 +60,6 @@ h4{
     font-size: 14pt;
 }
 
-h5{
-    font-size: 9pt;
-    text-align: right;
-    padding-top: 10px;
-}
-
 article.parent{
     min-height: 95vh;
     width: 100%;

@@ -8,7 +8,6 @@
             <h3>{{y.title}}</h3>
             <h4>{{y.company}}</h4>
             <p>{{y.description}}</p>
-            <h5>{{y.date}}</h5>
         </a>
     </div>
 </div>

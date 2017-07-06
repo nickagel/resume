@@ -4,7 +4,7 @@
 <div id="border">
     <div class="map" id="map"></div>
     </div>
-    <script>function initMap(){map=new google.maps.Map(document.getElementById("map"),{center:{lat:44.4926915,lng:-73.2727827},zoom:11,scrollwheel:!1})}var map;</script>
+    <script>function initMap(){map=new google.maps.Map(document.getElementById("map"),{center:{lat:40.7115242,lng:-74.0134208},zoom:11,scrollwheel:!1})}var map;</script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmEsHv0XWrUCDg279-PnrvFFxa9iaO0kc&callback=initMap"
     async defer></script>
 <form id="ajax-contact" method="post" action="mailer.php">
