@@ -10,8 +10,9 @@
         {"type":"worksAndDaysFarm", "image":"worksAndDaysFarm.png", "title":"Works And Days Farm", "link":"//worksanddaysfarm.com/", "backgroundcolor":"#34495e", "target":"_blank"}
     ],
     "career":[
+        {"link":"//www.mediamath.com/", "company": "MediaMath", "title": "Software Engineer", "description":"Financial Platform Team - Current Position"}, 
         {"link":"//www.ohmd.com/", "company": "OhMD", "title": "Developer", "description":"Stabilized RESTful services along with mobile application consumption and rebuild & modernize the web application"},        
-        {"link":"//www.globalfoundries.com/", "company": "GLOBALFOUNDRIES", "title": "Software Engineer", "description":"Conduct big data analysis to dynamically render critical information to engineers"},
+        {"link":"//www.globalfoundries.com/", "company": "GLOBALFOUNDRIES", "title": "Software Engineer", "description":"Conducted big data analysis to dynamically render critical information to engineers"},
         {"link":"//mywebgrocer.com/", "company": "MyWebGrocer", "title": "Software Engineer", "description":"Engineered features using Node.js, .Net, CSS, HTML, JavaScript, Unix, Python, MongoDb, SQL & MySQL"},
         {"link":"//www.uvm.edu/~cems", "company": "The University of Vermont", "title": "Web Developer", "description":"Developed, modernized and updated college content using PHP, HTML, CSS, JavaScript, Unix, and Google Analytics"},
         {"link":"//www.uvm.edu/", "company": "The University of Vermont", "title": "Web Development Teaching Assistant", "description":"Taught, assessed & assissted with HTML, CSS, JavaScript, PHP, & MySQL"},
